@@ -1,0 +1,36 @@
+textarea {
+    min-height: 400px;
+}
+#error {
+    color: red;
+    font-size: 0;
+}
+
+#buttons-view>button {
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.email_card {
+    border: black 1px solid; 
+    border-radius: 4px;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+.email_card>div {
+    padding: 10px;
+}
+
+#right_in_span {
+    float: right;
+}
+
+#center_in_span {
+    position: absolute;
+    left: 40%;
+}
+
+.email_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
